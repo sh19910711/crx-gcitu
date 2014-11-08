@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "wip",
+  "version": "<%= version %>",
+
+  "permissions": [
+    "webRequest",
+    "http://*.codeforces.com/",
+    "http://*.codeforces.ru/"
+  ],
+
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  }
+}
